@@ -40,9 +40,8 @@ struct MeetingView: View {
                     Image(systemName: "forward.fill")
                 }
             }
-            .padding()
         }
-
+        .padding()
     }
 }
 
