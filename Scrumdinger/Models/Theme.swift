@@ -5,7 +5,7 @@
 //  Created by ginger893 on 2024/01/15.
 //
 
-import Foundation
+import SwiftUI
 
 enum Theme: String {
     case bubblegum
