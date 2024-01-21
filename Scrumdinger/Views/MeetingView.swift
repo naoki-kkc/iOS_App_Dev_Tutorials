@@ -9,16 +9,9 @@ import SwiftUI
 
 struct MeetingView: View {
     var body: some View {
-//        VStack {
-//            Image(systemName: "globe")
-//                .imageScale(.large)
-//                .foregroundColor(.accentColor)
-//            Text("Hello, world!")
-//        }
-//        .padding()
         VStack {
             ProgressView(value: 5, total: 15)
-            HStack{
+            HStack {
                 VStack(alignment: .leading) {
                     Text("Second Elapsed")
                         .font(.caption)
@@ -33,15 +26,15 @@ struct MeetingView: View {
             }
             .accessibilityElement(children: .ignore)
             .accessibilityLabel("Time remaining")
-            .accessibilityLabel("10 minutes")
+            .accessibilityValue("10 minutes")
             
             Circle()
                 .strokeBorder(lineWidth: 24)
             
-            HStack{
+            HStack {
                 Text("Speaker 1 of 3")
                 Spacer()
-                Button(action: {}){
+                Button(action: {}) {
                     Image(systemName: "forward.fill")
                 }
                 .accessibilityLabel("Next speaker")
@@ -51,7 +44,7 @@ struct MeetingView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct MeetingView_Previews: PreviewProvider {
     static var previews: some View {
         MeetingView()
     }

@@ -44,6 +44,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8710F9E2B5D80E700C51CAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F8710F9A2B5D6BF800C51CAD /* ScrumsView.swift */,
+				F8710F982B5C0E0500C51CAD /* TrailingIconLabelStyle.swift */,
+				F8BE1B492B5279F9001E884E /* MeetingView.swift */,
+				F8B131502B56BAE80055B104 /* CardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F8B1314B2B55639E0055B104 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,12 +84,9 @@
 		F8BE1B462B5279F9001E884E /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				F8710F9A2B5D6BF800C51CAD /* ScrumsView.swift */,
-				F8710F982B5C0E0500C51CAD /* TrailingIconLabelStyle.swift */,
 				F8BE1B472B5279F9001E884E /* ScrumdingerApp.swift */,
-				F8BE1B492B5279F9001E884E /* MeetingView.swift */,
-				F8B131502B56BAE80055B104 /* CardView.swift */,
 				F8B1314B2B55639E0055B104 /* Models */,
+				F8710F9E2B5D80E700C51CAD /* Views */,
 				F8BE1B4B2B5279FD001E884E /* Assets.xcassets */,
 				F8BE1B4D2B5279FD001E884E /* Preview Content */,
 			);
